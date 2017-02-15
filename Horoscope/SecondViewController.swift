@@ -20,5 +20,10 @@ class SecondViewController: UIViewController {
     // Dispose of any resources that can be recreated.
   }
   
+  @IBOutlet var secondName: UITextField!
+  @IBOutlet var secondSurName: UITextField!
+  
+  @IBAction func continueSecondBtn(_ sender: Any) {
+  }
   
 }
