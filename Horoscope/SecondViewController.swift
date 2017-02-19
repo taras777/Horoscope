@@ -37,13 +37,5 @@ class SecondViewController: UIViewController {
   
     @IBAction func continueSecondBtn(_ sender: Any) {
         // TODO:
-  func createGradientLayerContinueBtn() {
-    gradientLayer = CAGradientLayer()
-    gradientLayer.frame = self.view.bounds
-    gradientLayer.colors = [UIColor.purple.cgColor, UIColor.red.cgColor]
-    gradientLayer.startPoint = CGPoint(x: 0.0, y: 1.0)
-    gradientLayer.endPoint = CGPoint(x: 1.7, y: 0.3)
-    view.layer.insertSublayer(gradientLayer, at: 0)
-    }
   }
 }
