@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="SJk-9B-dZ1">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="SJk-9B-dZ1">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -119,6 +119,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="SecondView" id="WyK-Ey-qO4" userLabel="Second View"/>
                     <connections>
+                        <outlet property="continueSecondButton" destination="Azk-Tf-2bg" id="rYK-IR-lA0"/>
                         <outlet property="secondName" destination="FkJ-du-Bfe" id="CdD-sl-ILw"/>
                         <outlet property="secondSurName" destination="RHX-E0-i0X" id="huz-8R-c6N"/>
                     </connections>
@@ -237,6 +238,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Third View" id="P3a-Hv-L90"/>
                     <connections>
+                        <outlet property="continueThirdButton" destination="C4M-Vh-iAl" id="sva-eh-6oB"/>
                         <outlet property="yourDay" destination="Q3n-RG-fdZ" id="aZe-1d-NVI"/>
                         <outlet property="yourMonth" destination="RW4-tR-TNc" id="xkJ-KF-qHb"/>
                         <outlet property="yourYear" destination="1GP-oD-aGI" id="VJc-Yl-eef"/>
