@@ -10,21 +10,20 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
-    var gradientLayer: CAGradientLayer!
-    
+  var gradientLayer: CAGradientLayer!
+  
     @IBOutlet var yourName: UITextField!
     @IBOutlet var yourSurName: UITextField!
   
     override func viewDidLoad() {
         super.viewDidLoad()
-  }
+    }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         createGradientLayer()
-      
-  }
-  
+    }
+
     func createGradientLayer() {
         gradientLayer = CAGradientLayer()
         gradientLayer.frame = self.view.bounds
@@ -36,13 +35,6 @@ class FirstViewController: UIViewController {
 
     @IBAction func сcontinueBtn(_ sender: Any) {
         // TODO:
-      func createGradientLayerContinueBtn() {
-      gradientLayer = CAGradientLayer()
-      gradientLayer.frame = self.view.bounds
-      gradientLayer.colors = [UIColor.purple.cgColor, UIColor.red.cgColor]
-      gradientLayer.startPoint = CGPoint(x: 0.0, y: 1.0)
-      gradientLayer.endPoint = CGPoint(x: 1.7, y: 0.3)
-      view.layer.insertSublayer(gradientLayer, at: 0)
+      
     }
-  }
 }
