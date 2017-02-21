@@ -15,7 +15,7 @@
 		6297EA221E060C520047F809 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6297EA1B1E060C520047F809 /* ThirdViewController.swift */; };
 		6297EA271E060C660047F809 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6297EA231E060C660047F809 /* LaunchScreen.storyboard */; };
 		6297EA281E060C660047F809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6297EA251E060C660047F809 /* Main.storyboard */; };
-		762104E91E5BBD5A0098A257 /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762104E81E5BBD5A0098A257 /* Properties.swift */; };
+		762104EC1E5BC0550098A257 /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762104EB1E5BC0550098A257 /* Properties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		6297EA1B1E060C520047F809 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		6297EA241E060C660047F809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6297EA261E060C660047F809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		762104E81E5BBD5A0098A257 /* Properties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Properties.swift; path = ../Properties.swift; sourceTree = "<group>"; };
+		762104EB1E5BC0550098A257 /* Properties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Properties.swift; sourceTree = "<group>"; };
 		76D785821DE48F4F00B64952 /* Horoscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Horoscope.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -46,7 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				6297EA151E060C520047F809 /* AppDelegate.swift */,
-				762104E81E5BBD5A0098A257 /* Properties.swift */,
+				762104EB1E5BC0550098A257 /* Properties.swift */,
 				6297EA181E060C520047F809 /* FirstViewController.swift */,
 				6297EA1A1E060C520047F809 /* SecondViewController.swift */,
 				6297EA1B1E060C520047F809 /* ThirdViewController.swift */,
@@ -168,7 +168,7 @@
 				6297EA211E060C520047F809 /* SecondViewController.swift in Sources */,
 				6297EA1C1E060C520047F809 /* AppDelegate.swift in Sources */,
 				6297EA221E060C520047F809 /* ThirdViewController.swift in Sources */,
-				762104E91E5BBD5A0098A257 /* Properties.swift in Sources */,
+				762104EC1E5BC0550098A257 /* Properties.swift in Sources */,
 				6297EA1F1E060C520047F809 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
