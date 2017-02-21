@@ -18,13 +18,13 @@ class Properties: UIViewController {
   
   override func viewWillAppear(_ animated: Bool) {
     super.viewWillAppear(animated)
-      createGradientLayer()
+    createGradientLayer()
   }
   
   @IBOutlet weak var continueButton: UIButton!
   @IBOutlet weak var continueSecondButton: UIButton!
   @IBOutlet weak var continueThirdButton: UIButton!
-
+  
   func createGradientLayer() {
     setupGradient(for: self.view, with: [UIColor.blue.cgColor, UIColor.white.cgColor])
     setupGradient(for: continueButton, with: [UIColor.white.cgColor, UIColor.blue.cgColor])
