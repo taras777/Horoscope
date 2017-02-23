@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Properties: UIViewController {
+class PropertiesViewController: UIViewController {
   
   var gradientLayer: CAGradientLayer!
   
@@ -21,13 +21,13 @@ class Properties: UIViewController {
     createGradientLayer()
   }
   
-  @IBOutlet weak var continueButton: UIButton!
+  @IBOutlet weak var continueFirstButton: UIButton!
   @IBOutlet weak var continueSecondButton: UIButton!
   @IBOutlet weak var continueThirdButton: UIButton!
   
   func createGradientLayer() {
     setupGradient(for: self.view, with: [UIColor.blue.cgColor, UIColor.white.cgColor])
-    setupGradient(for: continueButton, with: [UIColor.white.cgColor, UIColor.blue.cgColor])
+    setupGradient(for: continueFirstButton, with: [UIColor.white.cgColor, UIColor.blue.cgColor])
   }
   func setupGradient(for view: UIView, with colors: [CGColor]) {
     gradientLayer = CAGradientLayer()

@@ -10,7 +10,9 @@ import UIKit
 
 class ThirdViewController: UIViewController {
   
-  var s = Properties()
+  // Initializing the properties of PropertiesViewController class
+  var initializeProperties = PropertiesViewController()
+  
   var gradientLayer: CAGradientLayer!
 
     @IBOutlet var yourDay: UITextField!
@@ -40,25 +42,25 @@ class ThirdViewController: UIViewController {
 //    view.layer.insertSublayer(gradientLayer, at: 0)
 //  }
   
-  
-    @IBAction func firstBtn(_ sender: Any) {
+    // First, second and third cells with indicators of day, month and year of birth. With up-down indices to choose from.
+    @IBAction func firstIndexUp(_ sender: Any) {
     }
     
-    @IBAction func secondBtn(_ sender: Any) {
+    @IBAction func firstIndexDown(_ sender: Any) {
     }
     
-    @IBAction func thirdBtn(_ sender: Any) {
+    @IBAction func secondIndexUp(_ sender: Any) {
     }
     
-    @IBAction func fourthBtn(_ sender: Any) {
+    @IBAction func secondIndexDown(_ sender: Any) {
     }
     
-    @IBAction func fifthBtn(_ sender: Any) {
+    @IBAction func thirdIndexUp(_ sender: Any) {
     }
     
-    @IBAction func sixthBtn(_ sender: Any) {
+    @IBAction func thirdIndexDown(_ sender: Any) {
     }
-    
+ 
     @IBAction func continueThirdBtn(_ sender: Any) {
 
     // TODO:

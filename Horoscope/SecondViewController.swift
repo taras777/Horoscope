@@ -10,7 +10,9 @@ import UIKit
 
 class SecondViewController: UIViewController {
   
-  var s = Properties()
+  // Initializing the properties of PropertiesViewController class
+  var initializeProperties = PropertiesViewController()
+  
   var gradientLayer: CAGradientLayer!
 
   

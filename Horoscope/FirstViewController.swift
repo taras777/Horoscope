@@ -10,7 +10,9 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
-  var s = Properties()
+  // Initializing the properties of PropertiesViewController class
+  var initializeProperties = PropertiesViewController()
+  
   var gradientLayer: CAGradientLayer!
   
     @IBOutlet var yourName: UITextField!
@@ -40,7 +42,7 @@ class FirstViewController: UIViewController {
 //        view.layer.insertSublayer(gradientLayer, at: 0)
 //    }
 
-    @IBAction func сcontinueBtn(_ sender: Any) {
+    @IBAction func continueFirstBtn(_ sender: Any) {
         // TODO:
       
     }
