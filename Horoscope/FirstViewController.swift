@@ -11,7 +11,7 @@ import UIKit
 class FirstViewController: UIViewController {
 
   // Initializing the properties of PropertiesViewController class
-  var initializeProperties = PropertiesViewController()
+//  var initializeProperties = PropertiesViewController()
   
   var gradientLayer: CAGradientLayer!
   
@@ -24,26 +24,28 @@ class FirstViewController: UIViewController {
   
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-//        createGradientLayer()
+        createGradientLayer()
   }
 
-//    func createGradientLayer() {
-//      
-//        setupGradient(for: self.view, with: [UIColor.blue.cgColor, UIColor.white.cgColor])
-//        setupGradient(for: continueButton, with: [UIColor.white.cgColor, UIColor.blue.cgColor])
-//    }
-//    
-//    func setupGradient(for view: UIView, with colors: [CGColor]) {
-//        gradientLayer = CAGradientLayer()
-//        gradientLayer.frame = view.bounds
-//        gradientLayer.colors = colors
-//        gradientLayer.startPoint = CGPoint(x: 0.0, y: 1.0)
-//        gradientLayer.endPoint = CGPoint(x: 1.7, y: 0.3)
-//        view.layer.insertSublayer(gradientLayer, at: 0)
-//    }
-
-    @IBAction func continueFirstBtn(_ sender: Any) {
-        // TODO:
+    func createGradientLayer() {
       
+        setupGradient(for: self.view, with: [UIColor.blue.cgColor, UIColor.white.cgColor])
+        setupGradient(for: continueFirstButton, with: [UIColor.white.cgColor, UIColor.blue.cgColor])
     }
+    
+    func setupGradient(for view: UIView, with colors: [CGColor]) {
+        gradientLayer = CAGradientLayer()
+        gradientLayer.frame = view.bounds
+        gradientLayer.colors = colors
+        gradientLayer.startPoint = CGPoint(x: 0.0, y: 1.0)
+        gradientLayer.endPoint = CGPoint(x: 1.7, y: 0.3)
+        view.layer.insertSublayer(gradientLayer, at: 0)
     }
+
+
+  @IBAction func continueFirstBtn(_ sender: Any) {
+}
+  @IBOutlet weak var continueFirstButton: UIButton!
+
+
+}
