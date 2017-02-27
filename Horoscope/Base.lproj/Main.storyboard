@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="SJk-9B-dZ1">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="SJk-9B-dZ1">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -43,7 +43,6 @@
                                     <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="continueFirstBtn:" destination="iOg-b5-WCR" eventType="touchUpInside" id="GN1-SV-p63"/>
                                     <segue destination="5Dc-GC-Jb6" kind="show" id="2sg-WF-GO2"/>
                                 </connections>
                             </button>
@@ -60,7 +59,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="FirstView" id="Fio-sD-DIW" userLabel="First View"/>
                     <connections>
-                        <outlet property="continueFirstButton" destination="jw3-y2-05d" id="drk-HW-1Mp"/>
+                        <outlet property="continueButton" destination="jw3-y2-05d" id="ZEq-Vu-hka"/>
                         <outlet property="yourName" destination="K3r-6K-I0I" id="iB8-T6-LZW"/>
                         <outlet property="yourSurName" destination="tvY-Jn-5Pi" id="bs4-aI-GRK"/>
                     </connections>

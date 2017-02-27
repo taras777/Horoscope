@@ -10,9 +10,6 @@ import UIKit
 
 class ThirdViewController: UIViewController {
   
-  // Initializing the properties of PropertiesViewController class
-//  var initializeProperties = PropertiesViewController()
-  
   var gradientLayer: CAGradientLayer!
 
     @IBOutlet var yourDay: UITextField!
